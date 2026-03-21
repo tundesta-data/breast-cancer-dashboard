@@ -1,0 +1,48 @@
+Breast Cancer Measure % column
+
+Survival Rate % = 
+DIVIDE(
+    CALCULATE(
+        COUNT(Breast_Cancer_Dataset[Patient_ID]),
+        Breast_Cancer_Dataset[Survival_Status] = "Survived"
+    ),
+    COUNT(Breast_Cancer_Dataset[Patient_ID])
+
+
+Mortality Rate % = 
+DIVIDE(
+    CALCULATE(
+        COUNT(Breast_Cancer_Dataset[Patient_ID]),
+        Breast_Cancer_Dataset[Survival_Status] = "Deceased"
+    ),
+    COUNT(Breast_Cancer_Dataset[Patient_ID])
+
+
+Recurrence Rate % = 
+DIVIDE(
+    CALCULATE(
+        COUNT(Breast_Cancer_Dataset[Patient_ID]),
+        Breast_Cancer_Dataset[Recurrence_Status] = "Yes"
+    ),
+    COUNT(Breast_Cancer_Dataset[Patient_ID])
+)
+
+
+
+
+Column
+
+
+Age Group = 
+VAR AgeValue = Breast_Cancer_Dataset[Age]
+RETURN
+SWITCH(
+    TRUE(),
+    AgeValue < 30, "Under 30",
+    AgeValue <= 39, "30-39",
+    AgeValue <= 49, "40-49",
+    AgeValue <= 59, "50-59",
+    AgeValue <= 69, "60-69",
+    AgeValue >= 70, "70+",
+    "Unknown"
+)
