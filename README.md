@@ -25,3 +25,4 @@ Power BI
 SQL
 Data Modeling (DAX)
 📷 Dashboard Preview
+<img width="1207" height="676" alt="Screenshot 2026-03-21 104328" src="https://github.com/user-attachments/assets/72d80595-ca3e-4a3f-9f47-06a52b88b88f" />
