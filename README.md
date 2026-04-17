@@ -245,7 +245,7 @@ Encourage the use of treatments with lower recurrence rates (e.g., surgery).
 4. Improve post-treatment monitoring
 Implement strong follow-up systems to reduce recurrence rates.
 4. Data-driven healthcare decisions
-Use dashboards like this to guide hospital policies and treatment planning
+Use dashboards like this to guide hospital policies and treatment planning.
 
 Dataset Source
 <img width="1611" height="843" alt="Breast_Cancer_sample_image" src="https://github.com/user-attachments/assets/3ae5b979-ccc0-4112-b67a-ba35bec21489" />
