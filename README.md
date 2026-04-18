@@ -2,8 +2,8 @@
 Excel + SQL + Power BI Project | Breast Cancer Survival & Treatment Analytics | From Raw Data to Clincal and Non Clincal Insights
 
 ## 📑 Table of Contents
-* [Project Overview](#project-overview)
-* [Tools & Technologies](#Tools--technologies)
+* [📌Project Overview](#📌project-overview)
+* [🛠️Tools & Technologies](#🛠️Tools--technologies)
 * [Dataset Overview](#dataset-overview)
 * [Data Cleaning](#data-cleaning)
 * [Exploratory Analysis](#exploratory-analysis)
