@@ -2,15 +2,16 @@
 Excel + SQL + Power BI Project | Breast Cancer Survival & Treatment Analytics | From Raw Data to Clincal and Non Clincal Insights
 
 ### 📑 Table of Contents
-* Project Overview
-* Tools & Technologies
-* Dataset Overview
-* Data Cleaning
-* Exploratory Data Analysis
-* Power BI Dashboard
-* Key Metrics
-* Key Insights
-* Recommendations
+* [Project Overview](#project-overview)
+* [Tools & Technologies](#Tools--technologies)
+* [Dataset Overview](#dataset-overview)
+* [Data Cleaning](#data-cleaning)
+* [Exploratory Data Analysis](#exploratory-data-analysis)
+* [Power BI Dashboard](#power-bi-dashboard)
+* [Key Metrics](#key-metrics)
+* [Key Insights](#key-insights)
+* [Recommendations](#recommendations)
+* [Dataset Source](#dataset-source)
   
 ### 📌 Project Overview
 This project analyses breast cancer patient data to uncover insights on survival rates, mortality, treatment effectiveness, and recurrence patterns.
@@ -20,7 +21,7 @@ This project analyses breast cancer patient data to uncover insights on survival
 > - Understand risk factors affecting survival
 > - Support data-driven healthcare decisions
 
-### 🛠️ Tools Used
+### 🛠️ Tools & Technologies
 - SQL – Data extraction, transformation, and analysis
 - Power BI – Data visualization and dashboard creation
 
