@@ -2,8 +2,8 @@
 Excel + SQL + Power BI Project | Breast Cancer Survival & Treatment Analytics | From Raw Data to Clincal and Non Clincal Insights
 
 ## 📑 Table of Contents
-* [📌Project Overview](#📌project-overview)
-* [🛠️Tools & Technologies](#🛠️Tools--technologies)
+* [Project Overview](#project-overview)
+* [Tools & Technologies](#Tools--technologies)
 * [Dataset Overview](#dataset-overview)
 * [Data Cleaning](#data-cleaning)
 * [Exploratory Analysis](#exploratory-analysis)
@@ -13,7 +13,7 @@ Excel + SQL + Power BI Project | Breast Cancer Survival & Treatment Analytics | 
 * [Recommendations](#recommendations)
 * [Dataset Source](#dataset-source)
   
-### 📌 Project Overview
+###  Project Overview
 This project analyses breast cancer patient data to uncover insights on survival rates, mortality, treatment effectiveness, and recurrence patterns.
 > The goal is to:
 > - Identify patterns across different cancer stages
@@ -21,11 +21,11 @@ This project analyses breast cancer patient data to uncover insights on survival
 > - Understand risk factors affecting survival
 > - Support data-driven healthcare decisions
 
-### 🛠️ Tools & Technologies
+###  Tools & Technologies
 - SQL – Data extraction, transformation, and analysis
 - Power BI – Data visualization and dashboard creation
 
-### 🗂️ Dataset Overview
+###  Dataset Overview
  - The dataset contains information on:
 > -  Patient demographics (age groups)
 > - Cancer stages (Stage 0 – Stage 4)
@@ -43,7 +43,7 @@ Sample Preview
 | BC000001 | 65 | Female | Inflammatory Breast Cancer | Stage 1 |1.5 | Left | ER+/PR+ | Confirmed | Targeted Therapy | 2025-08-05 | Survived | 29 | Yes | 22.0 |
 | BC000002 | 63 | Female | Lobular Carcinoma | Stage 3 | 5.8 | Right|ER+/PR- | Confirmed | Hormone Therapy | 2025-10-29 | Survived | 3 | No | o |
 
-### 🧹 Data Cleaning
+###  Data Cleaning
 - Key cleaning steps performed:
 > - Removed duplicate records
 > - Handled missing/null values
@@ -51,7 +51,7 @@ Sample Preview
 > - Created calculated columns (e.g., survival rate %, mortality rate %)
 > - Ensured consistent date and numeric formats 
 
-### 🔍 Exploratory Analysis
+###  Exploratory Analysis
 - During analysis, the following were explored:
 1. Patient Per Stage
 ```SQL
@@ -192,7 +192,7 @@ FROM datasta.breast_cancer
 GROUP BY Cancer_Type
 ORDER BY COUNT(*) DESC;
 ```
-### 📊 Power BI Dashboard
+###  Power BI Dashboard
 -The dashboard provides an interactive view of:
 
 - KPIs (Top Section):
@@ -216,7 +216,7 @@ ORDER BY COUNT(*) DESC;
    
 ![Dashboard](Screenshot 2024-03-21 125517...)
 
-### 📈 Key Metrics
+###  Key Metrics
 - Total Patients: 5,000
 - Survival Rate: 75%
 - Mortality Rate: 25%
@@ -224,7 +224,7 @@ ORDER BY COUNT(*) DESC;
 - Average Survival per Month: 29.53
 <img width="1209" height="675" alt="Screenshot 2026-03-21 125517" src="https://github.com/user-attachments/assets/8bacf335-eeb3-46cb-9c3b-450f1c40935f" />
 
-### 💡 Key Insights
+###  Key Insights
 Early detection is critical:
 1. Survival rates are highest in Stage 0 (96.4%) and Stage 1 (95.4%), but drop significantly in later stages.
 2.  Late-stage risk is high:
@@ -236,7 +236,7 @@ Early detection is critical:
 5. Recurrence is a major concern:
 > - Around 30% of patients experience recurrence, indicating the need for better follow-up care.
 
-### 🚀 Recommendations
+###  Recommendations
 1. Promote early screening programs
 Focus on detecting cancer at Stage 0–1 to significantly improve survival rates.
 2. Enhance treatment strategies for late stages
