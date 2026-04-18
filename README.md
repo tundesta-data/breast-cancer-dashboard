@@ -1,6 +1,5 @@
 # 📊 Breast Cancer Survival & Treatment Analytics Dashboard
-Excel + SQL + Power BI Project | Breast Cancer Survival & Treatment Analytics | From Raw Data to Clincal and Non Clincal Insights
-
+Excel + SQL + Power BI Project | Breast Cancer Survival & Treatment Analytics | From Raw Data to Healthcare Insights
 ## 📑 Table of Contents
 * [Project Overview](#project-overview)
 * [Tools & Technologies](#Tools--technologies)
