@@ -214,6 +214,8 @@ ORDER BY COUNT(*) DESC;
 5. Cancer Type Distribution
    
 ![Dashboard](Screenshot 2024-03-21 125517...)
+(<img width="743" height="410" alt="Screenshot 2026-09-12 110907" src="https://github.com/user-attachments/assets/ab307bab-2eca-4f9b-b1f2-d1518ad2f3d8" />
+)
 
 ###  Key Metrics
 - Total Patients: 5,000
@@ -251,3 +253,4 @@ Use dashboards like this to guide hospital policies and treatment planning.
 <img width="1611" height="843" alt="Breast_Cancer_sample_image" src="https://github.com/user-attachments/assets/3ae5b979-ccc0-4112-b67a-ba35bec21489" />
 
 [Download Here](https://docs.google.com/spreadsheets/d/1fh1cpCAQNMNBaLFDGZH1MxmXe5PedtwI8gswPV2n_fU/edit?usp=sharing)
+[Download Image URL](https://docs.google.com/spreadsheets/d/1VB6hALy6TplkxF6Yee0kyIKADKhq0CnHxbMs1pwIJhI/edit?usp=sharing)
