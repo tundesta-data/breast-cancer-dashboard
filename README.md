@@ -223,7 +223,6 @@ ORDER BY COUNT(*) DESC;
 - Mortality Rate: 25%
 - Recurrence Rate: 30.12%
 - Average Survival per Month: 29.53
-<img width="1209" height="675" alt="Screenshot 2026-03-21 125517" src="https://github.com/user-attachments/assets/8bacf335-eeb3-46cb-9c3b-450f1c40935f" />
 
 ###  Key Insights
 Early detection is critical:
