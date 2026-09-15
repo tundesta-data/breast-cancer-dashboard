@@ -193,6 +193,9 @@ ORDER BY COUNT(*) DESC;
 ```
 ###  Power BI Dashboard
 -The dashboard provides an interactive view of:
+![Dashboard](Screenshot 2024-03-21 125517...)
+(<img width="743" height="410" alt="Screenshot 2026-09-12 110907" src="https://github.com/user-attachments/assets/ab307bab-2eca-4f9b-b1f2-d1518ad2f3d8" />
+)
 
 - KPIs (Top Section):
 > - Total Patients
