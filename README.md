@@ -205,7 +205,6 @@ ORDER BY COUNT(*) DESC;
 > - Average Survival per Month
 - Filters:
 > - Cancer Stage
-> - Age Group
 > - Treatment Type
 > - Recurrence Status
 > - Affected Breast
@@ -215,10 +214,8 @@ ORDER BY COUNT(*) DESC;
 3. Mortality Rate by Cancer Stage
 4. Recurrence by Treatment Type
 5. Cancer Type Distribution
+6. Age Group
    
-![Dashboard](Screenshot 2024-03-21 125517...)
-(<img width="743" height="410" alt="Screenshot 2026-09-12 110907" src="https://github.com/user-attachments/assets/ab307bab-2eca-4f9b-b1f2-d1518ad2f3d8" />
-)
 
 ###  Key Metrics
 - Total Patients: 5,000
